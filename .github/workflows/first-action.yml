@@ -1,0 +1,8 @@
+name: First GitHub Action
+on: [push]
+jobs:
+  log-message:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub action running!"
+      - run: echo "one job can have multiple steps"
