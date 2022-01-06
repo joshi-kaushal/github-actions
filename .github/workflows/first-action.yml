@@ -1,13 +1,7 @@
 name: First GitHub Action
 on: [push]
 jobs:
-  log-message:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: echo "GitHub action running!"
-      - run: echo "one job can have multiple steps"
-  build-apps:
+  build-app:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
