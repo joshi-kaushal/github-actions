@@ -10,7 +10,5 @@ jobs:
           node-version: "14.17.0"
       - name: Installing node modules
         run: yarn
-      - name: Building the project
-        run: yarn build
       - name: Node JS Setup finished
         run: echo "NPM Installed"
