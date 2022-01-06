@@ -3,6 +3,7 @@ on: [push]
 jobs:
   log-message:
     runs-on: ubuntu-latest
+    uses: actions/checkout@v2
     steps:
       - run: echo "GitHub action running!"
       - run: echo "one job can have multiple steps"
